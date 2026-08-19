@@ -15,6 +15,10 @@ RAGP improves propagation stability in low-texture regions while reducing errone
   <img src="assets/framework.png" width="90%">
 </p>
 
+## Updates
+
+- **2026/08**: Part of the implementation has been released. The remaining code will be made available in a future update.
+  
 ## Installation
 
 Follow the instructions in the [GaussianPro](https://github.com/kcheng1021/GaussianPro)  to setup the environment. 
@@ -27,10 +31,6 @@ We conduct experiments on selected scenes from the following datasets:
 - [nuScenes](https://www.nuscenes.org/), which provides large-scale urban driving scenes with complex dynamic environments.
 
 Please refer to the official websites for dataset access and download instructions.
-
-## Code Release
-
-We have released part of the implementation. The remaining code will be made available in a future update.
 
 ## Acknowledgements
 
