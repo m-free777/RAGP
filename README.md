@@ -17,10 +17,18 @@ Our method focuses on improving static scene reconstruction in the presence of d
 
 Follow the instructions in the [GaussianPro](https://github.com/kcheng1021/GaussianPro)  to setup the environment. 
 
+## Datasets
+
+We conduct experiments on selected scenes from the following datasets:
+
+- [NeRF On-the-go](https://rwn17.github.io/nerf-on-the-go/), which contains casually captured real-world scenes with dynamic distractors.
+- [nuScenes](https://www.nuscenes.org/), which provides large-scale urban driving scenes with complex dynamic environments.
+
+Please refer to the official websites for dataset access and download instructions.
+
 ## Code Release
 
-We have released part of the implementation, including the code for rendering and evaluation. The remaining code will be made available
-in a future update.
+We have released part of the implementation. The remaining code will be made available in a future update.
 
 ## Acknowledgements
 
