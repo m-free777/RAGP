@@ -17,7 +17,7 @@ RAGP improves propagation stability in low-texture regions while reducing errone
 
 ## Updates
 
-- **2026/08:** Initial code release. More implementation details will be released in future updates.
+- **2026/08:** Part of the implementation has been released. The remaining code will be released in future updates.
   
 ## Installation
 
