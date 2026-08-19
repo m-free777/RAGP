@@ -2,12 +2,14 @@
 
 ## Overview
 
-RAGP is a method for robust 3D Gaussian Splatting in dynamic scenes.
+**RAGP** is a reliability-aware adaptive Gaussian propagation framework for reconstructing static regions in **low-texture dynamic outdoor scenes**.
 
-Our method focuses on improving static scene reconstruction in the presence of dynamic objects by introducing:
+It introduces two key components:
 
-- Dynamic-aware static Gaussian reliability optimization
-- Static-reliability-guided adaptive patch-based geometric propagation
+- **Dynamic-aware static Gaussian reliability optimization**, which combines dynamic priors and rendering residuals to guide static supervision, propagation filtering, and Gaussian densification.
+- **Static-reliability-guided adaptive patch-based geometric propagation**, which selects suitable patch scales according to local structure, geometric consistency, and static reliability.
+
+RAGP improves propagation stability in low-texture regions while reducing erroneous propagation and densification around dynamic interference and structural boundaries.
 
 <p align="center">
   <img src="assets/framework.png" width="90%">
